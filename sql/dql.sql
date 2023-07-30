@@ -1,8 +1,7 @@
 show databases;
 -- check databases;
 
-show tables;
--- check tables;
+show tables;-- check tables;
 
 select * from employees;
 -- check all records in table

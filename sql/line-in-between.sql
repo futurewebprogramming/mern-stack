@@ -76,3 +76,6 @@ select * from customers where cus_city in ('New york')
 
 -- between Operator
 select * from customers where cus_age between 10 and 22
+
+-- select date between 
+select * from customers where dob between "1992-01-01" and "1999-01-01"
