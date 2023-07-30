@@ -26,3 +26,8 @@ select coalesce(cus_email, 'Not Have Email') from customers
 
 -- format date 
 select date_format(dob, '%Y-%m-%d') from customers
+
+-- format float values
+select format(200.85945, 1) 
+-- so with this we can specify after this . how many decmial numbers should come
+--  in this example we or getting just 1, like this. 200.9
